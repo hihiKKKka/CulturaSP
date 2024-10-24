@@ -1,0 +1,39 @@
+hr{
+    margin: 0;
+}
+.rotape{
+    padding-top: 5px;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+}
+
+.lista-rotape{
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .rotape{
+        display: flex;
+        justify-content: space-around;
+        font-family: var(--fonte-principal);
+        margin-top: 7px;
+
+    }
+    .lista-rotape{
+        display: block;
+    }
+
+    .lista-rotape__item{
+        display: flex;
+        align-items: center;
+        font-family: var(--fonte-principal);
+        margin: 0.6em 0;
+    }
+
+    .lista-rotape__link{
+        color: var(--roxo-principal);
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,23 @@
+
+  
+  /* Remove as bolinhas de paginação apenas dos temas */
+  .temas-swiper .swiper-pagination {
+    display: none; /* Oculta a paginação nos temas */
+  }
+
+  .temas-img img{
+    width: 80px;
+ height: 90px;
+  }
+
+
+  @media screen and (min-width:1024px) {
+    .temas-img img{
+width: 120px;
+height: 134px;
+padding: 0.1em;
+    }
+
+
+
+  }

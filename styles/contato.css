@@ -1,0 +1,79 @@
+.contato {
+    background-color: #0c0449;
+    padding: 2em;
+    text-align: center; 
+    color: white; 
+}
+
+.contato__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    color: #f7f3ff;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    color: #8c52ff;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.contato__email {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 90%; 
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    color: black;
+
+}
+.contato__email::placeholder{
+    font-family: var(--fonte-principal);
+    color: black;
+    font-weight: 600 ;
+    background: url("../img/email.svg") no-repeat;
+    padding-left: 2em;
+
+}
+
+@media screen and (min-width:1024px) {
+    .contato {
+        background-color: #0c0449; /* Mantém o fundo azul escuro */
+        padding: 2em;
+        display: flex;
+        text-align: center; /* Centraliza o conteúdo */
+        color: white; /* Texto branco para contraste */
+        position: relative; /* Garante que seja o limite para elementos internos */
+        z-index: 1; /* Mantém a seção de contato acima de outros elementos */
+        overflow: hidden; /* Evita que elementos internos ultrapassem a borda */
+        min-height: 40px; /* Garante que a seção tenha uma altura mínima */
+        
+    }
+    .contato__email{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .contato__titulo{
+        font-size: 24px;
+    }
+    .contato__descricao{
+        margin-right: 1em;
+    }
+    .contato__email::placeholder{
+       
+        padding-bottom: 4em;
+    }
+
+    .contato{
+        margin-top: 5px ;
+
+
+    }
+}

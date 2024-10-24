@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+  <title>Cultura SP</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="cabeçalho">
+    <div class="container perfil">
+      <a href="#"><img src="img/perfil.svg" alt="Perfil do Usuario" class="container__imagem"></a>
+      <h1 class="container__titulo"><b class="container__titulo--negrito">Cultura</b>SP</h1>
+    </div>
+
+    <ul class="opcoes">
+      <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+      <li class="opcoes__item"><a href="#" class="opcoes__link">Meus Eventos</a></li>
+
+    </ul>
+
+
+
+
+    <div class="container">
+      <a href="#"><img src="img/notificacao.svg" alt="Notificações" class="container__imagem notificacao"></a>
+      <a href="#"><img src="img/ajuda.svg" alt="Ajuda" class="container__imagem ajuda"></a>
+    </div>
+  </header>
+  <section class="banner">
+
+    <input type="search" class="banner__pesquisa" placeholder="Pesquisar Eventos">
+
+    <!-- Slider main container -->
+
+    <div class="swiper-destaques">
+      <!-- Additional required wrapper -->
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide swiper-slide-next"><img src="img/ursinhopu.svg" alt="Ursinho Pu evento"></div>
+        <div class="swiper-slide"><img src="img/afropunk.svg" alt="AfroPunk"> </div>
+        <div class="swiper-slide"><img src="img/elvis.svg" alt="Elvis Show"></div>
+        <div class="swiper-slide"><img src="img/meninasmalvadas.svg" alt="Meninas Malvadas teatro"></div>
+        <div class="swiper-slide"><img src="img/toctoc.svg" alt="toctoc teatro"></div>
+        <div class="swiper-slide"><img src="img/tatuagem.svg" alt="Evento de tatuagem"></div>
+        <div class="swiper-slide"><img src="img/eventogame.svg" alt="Evento games"></div>
+
+
+
+      </div>
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+
+    </div>
+    <div class="temas">
+      <div class="swiper temas-swiper">
+        <div class="swiper-wrapper temas-img">
+          <div class="swiper-slide">
+            <a href="#"><img src="img/musica.svg" alt="Música" class="tema__imagem"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="img/teatro.svg" alt="Teatro" class="tema__imagem"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="img/gastronomia.svg" alt="Gastronomia" class="tema__imagem"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="img/esportes.svg" alt="Esportes" class="tema__imagem"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="img/tecnologia.svg" alt="Tecnologia" class="tema__imagem"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="img/halloween.svg" alt="Halloween" class="tema__imagem"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="img/infantil.svg" alt="Para Crianças" class="tema__imagem"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="img/palestra.svg" alt="Palestras" class="tema__imagem"></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="img/shows.svg" alt="Shows" class="tema__imagem"></a>
+          </div>
+          
+        </div>
+
+        <!-- Swiper Pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+
+    <section class="eventos-mais-vistos">
+      <h2 class="titulo-principal">Eventos Mais Vistos</h2>
+      <div class="eventos-container">
+        <div class="eventos-swiper eventosIMG">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#"><img src="img/guarana.svg" alt="Homenagem Guaraná para Ayrton Senna" class="tema__imagem"></a>
+              <p class="descricao">Homenagem Guaraná para Ayrton Senna</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="img/peterpan.svg" alt="Peter Pan & Sininho na Terra do Nunca"
+                  class="tema__imagem"></a>
+              <p class="descricao">Peter Pan & Sininho na Terra do Nunca</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="img/onde esta waly.svg" alt="Onde está Wally" class="tema__imagem"></a>
+              <p class="descricao">Onde está Wally</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="img/museu-ipiranga.svg" alt="Museu do Ipiranga" class="tema__imagem"></a>
+              <p class="descricao">Museu do Ipiranga</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="img/festivalcorais.svg" alt="Festival Mosaico de Corais" class="tema__imagem"></a>
+              <p class="descricao">Festival Mosaico de Corais</p>
+            </div>
+            <div class="swiper-slide">
+              <a href="#"><img src="img/museu liguapt.svg" alt="Museu da Língua Portuguesa" class="tema__imagem"></a>
+              <p class="descricao">Museu da Língua Portuguesa</p>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+
+
+  </section>
+
+  <section class="contato">
+    <div class="contato__descricaos">
+      <h2 class="contato__titulo"> Fique por dentro de novos eventos! </h2>
+      <p class="contato__texto"> Atualizações de Shows, Peças, Festivais e muito mais</p>
+    </div>
+    <input type="email" placeholder="Cadastre seu Email" class="contato__email">
+  </section>
+
+  <hr />
+  <footer class="rotape">
+    <h2 class="rotaoe__titulo">
+      Cultura SP
+    </h2>
+
+    <ul class="lista-rotape">
+      <li class="lista-rotape__titulo">Categorias</li>
+
+      <li class="lista-rotape__item">
+        <a href="#" class="lista-rotape__link">Festas e Shows </a>
+      </li>
+
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Teatros e Espetáculos</a>
+      </li>
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Esportes</a>
+      </li>
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Gastronomia</a>
+      </li>
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Infantil</a>
+      </li>
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Tecnologia e Games</a>
+      </li>
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Música</a>
+      </li>
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Palestras e Congressos</a>
+      </li>
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Halloween</a>
+      </li>
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Religião e Espiritualidade</a>
+      </li>
+      <li class="lista-rotape__item">
+
+        <a href="#" class="lista-rotape__link">Artes e Tradições</a>
+      </li>
+
+    </ul>
+
+    <ul class="lista-rotape">
+<li class="lista-rotape__titulo">Calendário de Eventos</li>
+<li class="lista-rotape__item">
+  <a href="#" class="lista-rotape__link">Hoje</a>
+</li>
+<li class="lista-rotape__item">
+  <a href="#" class="lista-rotape__link">Amanhã</a>
+</li>
+<li class="lista-rotape__item">
+  <a href="#" class="lista-rotape__link">Esta semana</a>
+</li>
+<li class="lista-rotape__item">
+  <a href="#" class="lista-rotape__link">Fim de semana</a>
+</li>
+<li class="lista-rotape__item">
+  <a href="#" class="lista-rotape__link">Este mês</a>
+</li>
+    </ul>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-destaques', {
+      spaceBetween: 240,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    const swiperTemas = new Swiper('.temas-swiper', {
+      spaceBetween: 1,
+      slidesPerView: 5,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    const swiperMaisVistos = new Swiper('.eventos-swiper', {
+      spaceBetween: 10, 
+      slidesPerView: 4, 
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+
+
+  </script>
+</body>
+
+</html>

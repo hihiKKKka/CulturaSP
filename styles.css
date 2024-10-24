@@ -1,0 +1,30 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrosel.css");
+@import url("styles/temas.css");
+@import url("styles/eventos.css");
+@import url("styles/contato.css");
+@import url("styles/rotape.css");
+:root {
+    --cor-de-fundo: #0c0449;
+    --fonte-principal: "Poppins";
+    --roxo-principal: #8c52ff;
+    --branco: #ffffff;
+    --preto: #000000;
+    --fonte-secundaria:"Josefin Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 200;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh; /* 100% da altura da viewport */
+}
